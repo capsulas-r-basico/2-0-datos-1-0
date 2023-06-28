@@ -109,6 +109,8 @@ Podemos chequear en qué carpeta nos encontramos con:
 getwd()
 ```
 
+--
+
 Lo interesante es que si, por ejemplo, queremos entrar a la carpeta `data`, no es
 necesario escribir la ruta completa, sino que basta con partir desde el directorio
 de trabajo actual:
