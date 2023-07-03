@@ -100,8 +100,10 @@ h2, h3 {
 }
 
 
-
-
+/* Scroller para lámina */
+.remark-slide-scaler {
+    overflow-y: auto;
+}
 
 
 .remark-slide-content h1 {

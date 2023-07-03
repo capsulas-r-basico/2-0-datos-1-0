@@ -77,7 +77,35 @@ list.files('C:/Users/Jeconchao/Desktop/Repos/datos-1-1/data')
 
 
 ```
+
 --
+
+.center[<img src="imagenes/directorio.png" width="45%" />]
+
+
+---
+
+template: diapo-basica
+
+## list.files y rutas absolutas
+
+Cuando trabajamos en R, muchas veces lo haremos con archivos de nuestro computador.
+
+
+
+
+Si queremos ver los archivos de un directorio particular, podemos usar
+`list.files(ruta_directorio)`, donde `ruta_directorio` es un string que representa
+el directorio, por ejemplo:
+
+```{r, echo = T}
+
+list.files('C:/Users/Jeconchao/Desktop/Repos/datos-1-1/data')
+
+
+```
+
+
 
 Esto es una ruta absoluta, pues parte desde el disco (`C:/`) y tiene dos problemas:
 
@@ -154,7 +182,7 @@ Para evitar esto, utilizamos los `proyectos` de `RStudio`.
 
 --
 
-Básicamente crean un archivo que le dice a R que el directorio de trabajo es donde
+Básicamente crean un archivo que le dice a R cuál es el directorio de trabajo en donde
 se aloja el proyecto.
 
 --
